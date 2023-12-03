@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    
+}
+
+.crud{
+
+    width: 85%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.Inputs input{
+
+    margin: 6px 0;
+}
+
+.price{
+    display: flex;
+}
+.price input{
+    margin-right:  3px;
+}
+#total{
+    height: 25px;
+    padding: 7px 2px;
+    margin-top: 13px;
+}
+
+#total::before{
+    content: 'Total: ';
+}
+
+.Inputs button{
+    width: 100%;
+}
+.Inputs button:hover{
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+}
+
+.btnsearch{
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.btnsearch button{
+    width: 45%;
+}
+
+.searchblock{
+    margin-top: 5px;
+}
+
+#deleteAll{
+
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+
+
+}
